@@ -1,0 +1,23 @@
+/* ---------------- Tags ---------------- */
+.gtm-last-open-tag { background-color: #cce5ff !important; border-left: 4px solid #007bff; position: relative; padding-left: 30px !important; }
+.gtm-last-open-tag::before { content: "1."; position: absolute; left: 8px; color: #007bff; font-weight: bold; }
+.gtm-second-last-open-tag { background-color: #e6f0ff !important; border-left: 4px solid #3399ff; position: relative; padding-left: 30px !important; }
+.gtm-second-last-open-tag::before { content: "2."; position: absolute; left: 8px; color: #3399ff; font-weight: bold; }
+.gtm-third-last-open-tag { background-color: #f2f7ff !important; border-left: 4px solid #66b3ff; position: relative; padding-left: 30px !important; }
+.gtm-third-last-open-tag::before { content: "3."; position: absolute; left: 8px; color: #66b3ff; font-weight: bold; }
+
+/* ---------------- Triggers ---------------- */
+.gtm-last-open-trigger { background-color: #fff3e0 !important; border-left: 4px solid #ff9800; position: relative; padding-left: 30px !important; }
+.gtm-last-open-trigger::before { content: "1."; position: absolute; left: 8px; color: #ff9800; font-weight: bold; }
+.gtm-second-last-open-trigger { background-color: #fff8e1 !important; border-left: 4px solid #ffb74d; position: relative; padding-left: 30px !important; }
+.gtm-second-last-open-trigger::before { content: "2."; position: absolute; left: 8px; color: #ffb74d; font-weight: bold; }
+.gtm-third-last-open-trigger { background-color: #fffde7 !important; border-left: 4px solid #ffd54f; position: relative; padding-left: 30px !important; }
+.gtm-third-last-open-trigger::before { content: "3."; position: absolute; left: 8px; color: #ffd54f; font-weight: bold; }
+
+/* ---------------- Variables ---------------- */
+.gtm-last-open-variable { background-color: #e0f7fa !important; border-left: 4px solid #00acc1; position: relative; padding-left: 30px !important; }
+.gtm-last-open-variable::before { content: "1."; position: absolute; left: 8px; color: #00acc1; font-weight: bold; }
+.gtm-second-last-open-variable { background-color: #b2ebf2 !important; border-left: 4px solid #26c6da; position: relative; padding-left: 30px !important; }
+.gtm-second-last-open-variable::before { content: "2."; position: absolute; left: 8px; color: #26c6da; font-weight: bold; }
+.gtm-third-last-open-variable { background-color: #e0f2f1 !important; border-left: 4px solid #80cbc4; position: relative; padding-left: 30px !important; }
+.gtm-third-last-open-variable::before { content: "3."; position: absolute; left: 8px; color: #80cbc4; font-weight: bold; }

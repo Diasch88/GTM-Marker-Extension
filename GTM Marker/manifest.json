@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GTM Last Tag Marker",
+  "version": "1.0",
+  "description": "Markiert die drei zuletzt geöffneten Tags/Triggers/Variables im Google Tag Manager und hilft so beim strukturierten Arbeiten!",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://tagmanager.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
